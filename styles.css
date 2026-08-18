@@ -1,0 +1,23 @@
+@font-face {
+   font-family: "neuemachina";
+   src: url("./assets/neuemachina-regular.otf");
+   font-style: normal;
+}
+
+* {
+    font-family: "neuemachina", sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #f2f2f2;
+}
+
+#main-container {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: "neuemachina", sans-serif;
+}
